@@ -78,19 +78,19 @@ public class homeworkLab1 {
         }
         System.out.println("done :) ");
 
-        // for (int i = 0; i < neighbourMatrix.length; i++) {
-        //     for (int j = 0; j < neighbourMatrix.length; j++) {
-        //         // System.out.print(neighbourMatrix[i][j] + " ");
+        for (int i = 0; i < neighbourMatrix.length; i++) {
+            for (int j = 0; j < neighbourMatrix.length; j++) {
+                // System.out.print(neighbourMatrix[i][j] + " ");
 
-        //         if (neighbourMatrix[i][j]) {
-        //             System.out.print(1 + " ");
-        //         } else {
-        //             System.out.print(0 + " ");
-        //         }
+                if (neighbourMatrix[i][j]) {
+                    System.out.print(1 + " ");
+                } else {
+                    System.out.print(0 + " ");
+                }
 
-        //     }
-        //     System.out.println();
-        // }
+            }
+            System.out.println();
+        }
 
 
         /// 4
