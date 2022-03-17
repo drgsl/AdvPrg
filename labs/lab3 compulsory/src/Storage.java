@@ -12,13 +12,13 @@ public interface Storage {
      */
     default long convertGbTo(String changeTo, int value){
         if (changeTo.equals("MB")) {
-            return value*1000L;
+            return value*1024L;
         }
         if (changeTo.equals("KB")) {
-            return value*1000000L;
+            return value*1048576L;
         }
         if (changeTo.equals("B")) {
-            return value*10000000000L;
+            return value*1073741824L;
         }
         System.out.println("string not accepted(must be MB, KB or B");
         return -1;
