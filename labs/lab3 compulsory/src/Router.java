@@ -1,23 +1,37 @@
 public class Router extends Node implements Identifiable{
-    String ipAddr;
+    int ipAddr;
 
-    public Router(String name, String macAddr, String location, String ipAddr) {
+    /**
+     * constructor
+     * @param name
+     * @param macAddr
+     * @param location
+     * @param ipAddr
+     */
+    public Router(String name, String macAddr, String location, int ipAddr) {
         super(name, macAddr, location);
         this.ipAddr = ipAddr;
     }
 
+    /**
+     * getter
+     * @return
+     */
     @Override
-    public void getIP() {
-
+    public int getIP() {
+        return ipAddr;
     }
 
+    /**
+     * overrdie
+     * @return
+     */
     @Override
     public String toString() {
         return "Router{" +
                 "name='" + name + '\'' +
-                ", macAddr='" + macAddr + '\'' +
                 ", location='" + location + '\'' +
-                ", ipAddr='" + ipAddr + '\'' +
-                '}';
+                ", cost=" + cost +
+                '}' + '\n';
     }
 }
