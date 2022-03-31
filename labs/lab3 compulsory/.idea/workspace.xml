@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cb10ebd-f825-4f26-8251-5be9a7acb1db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../lab4 compulsory/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4 compulsory/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4 compulsory/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4 compulsory/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4 compulsory/lab4 compulsory.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4 compulsory/src/Intersection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4 compulsory/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lab4 compulsory/src/Street.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Storage.java" afterDir="false" />
-    </list>
+    <list default="true" id="7cb10ebd-f825-4f26-8251-5be9a7acb1db" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
