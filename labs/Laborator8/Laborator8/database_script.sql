@@ -1,12 +1,12 @@
 create table countries(
-    id int not null primary key,
+    id serial primary key,
     name varchar(50) not null,
     continent_id int not null,
     FOREIGN KEY (continent_id) REFERENCES continents(id)
 );
 
 create table continents(
-    id int not null primary key,
+    id serial primary key,
     name varchar(20) not null
 );
 
@@ -38,7 +38,7 @@ drop table countries;
 delete from continents where id=2;
 
 create table cities(
-    id int not null primary key,
+    id serial primary key,
     country_id int not null,
     name varchar(50) not null,
     capital int check(capital=0 or capital=1) not null,
